@@ -7,6 +7,7 @@ import HandleEvent from './HandleEvent/HandleEvent';
 import BaiTapGioHang from './BaiTapGioHang';
 import BTGioHangRedux from './compnents/BaiTapRedux/BaiTapGioHang/BTGioHangRedux';
 import BaiTapOanTuTi from './BaiTapOanTuTi/BaiTapOanTuTi';
+import BaiTapBookingTicked from './BaiTapBookingTicked/BaiTapBookingTicked';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <HandleEvent /> */}
       {/* <BaiTapGioHang /> */}
       {/* <BTGioHangRedux /> */}
-      <BaiTapOanTuTi />
+      {/* <BaiTapOanTuTi /> */}
+      <BaiTapBookingTicked />
     </div>
   );
 }
